@@ -19,6 +19,6 @@ script:
   - make clean all publish
 deploy:
   provider: script
-  script: bash -c "curl -L https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/deploy-to-gh-pages.sh | bash"
+  script: bash -c "curl -L https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/deploy-to-gh-pages.sh | bash"
   on:
     branch: master
