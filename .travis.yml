@@ -6,7 +6,8 @@ dist: xenial
 env:
   global:
     - JAVA_OPTS="java.awt.headless=true"
-    - COMMIT_AUTHOR_EMAIL="travis-ci@cloudsecurityalliance.org"
+    - COMMIT_AUTHOR_EMAIL="travis-ci@metanorma.com"
+    - ENCRYPTION_LABEL="76cf0ca8b1d3"
 rvm:
   - 2.5.3
 cache: bundler
