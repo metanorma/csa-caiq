@@ -1,0 +1,31 @@
+= Cloud Controls Matrix 3.0.1 Consensus Assessment Questionnaire
+:doctype: standard
+:docnumber: CCM-CAIQ-3.0.1
+:lang: en
+:script: Latn
+:toc:
+:status: draft
+:committee: CCM WG
+:published-date: 2019-04-30
+:docfile: document.adoc
+:mn-document-class: csand
+:mn-output-extensions: xml,html,pdf
+:local-cache-only:
+:data-uri-image:
+
+include::sections/00-front.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-references.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::sections/04-requirements.adoc[]
+
+//include::sections/annex-a.adoc[]
+//include::sections/annex-n.adoc[]
+
+include::sections/nn-history.adoc[]
+
+include::sections/nn-bibliography.adoc[]

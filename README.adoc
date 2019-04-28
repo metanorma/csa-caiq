@@ -1,0 +1,5 @@
+= CSA Cloud Controls Matrix 3.0.1 Consensus Assessment Questionnaire in Metanorma
+
+This document is used to allow automatic generation of a filled CSA
+CAIQ 3.0.1 using the machine-readable requirements functionality in
+Metanorma.
