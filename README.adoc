@@ -9,6 +9,9 @@ Metanorma.
 This document is available in its rendered forms here:
 
 * https://metanorma.github.io/csa-caiq/[CSA Cloud Controls Matrix 3.0.1 Consensus Assessment Questionnaire (HTML)]
+* https://metanorma.github.io/csa-caiq/document.pdf[PDF]
+* https://metanorma.github.io/csa-caiq/document.xml[Metanorma XML]
+//* https://metanorma.github.io/csa-caiq/document.rxl[Relaton XML (Bibliographic item)]
 
 
 Because of all this, there is no need to build the document on your own, but if you wish to do so, this is how it can be done:
