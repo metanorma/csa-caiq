@@ -18,6 +18,7 @@ before_install:
 script:
   - make clean all publish
 deploy:
+  skip_cleanup: true
   provider: script
   script: bash -c "curl -L https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/deploy-to-gh-pages.sh | bash"
   on:
