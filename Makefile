@@ -62,7 +62,7 @@ open: open-html
 
 clean:
 	rm -f $(OUT_FILES); \
-	rm -rf controls
+	rm -rf controls caiq.yaml
 
 bundle:
 	if [ "x" == "${METANORMA_DOCKER}x" ]; then bundle; fi
@@ -124,8 +124,8 @@ publish:
 controls:
 	mkdir -p $@;
 
-# caiq.yaml:
-# 	bundle exec csa-ccm ccm-yaml 3.0.1 -o $@
+caiq.yaml:
+	bundle exec csa-ccm ccm-yaml 3.0.1 -o $@
 
-controls/%.adoc: controls #caiq.yaml
+controls/%.adoc: controls caiq.yaml
 	scripts/build.rb
