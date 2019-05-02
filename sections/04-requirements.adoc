@@ -1,5 +1,3 @@
 == Controls
 
-include::../controls/ais.adoc[]
-
-include::../controls/aac.adoc[]
+include::../controls/xx-all.adoc[]

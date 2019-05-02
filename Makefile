@@ -25,7 +25,7 @@ endif
 _OUT_FILES := $(foreach FORMAT,$(FORMATS),$(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
 OUT_FILES  := $(foreach F,$(_OUT_FILES),$($F))
 
-all: images $(OUT_FILES)
+all: images controls/xx-all.adoc $(OUT_FILES)
 
 %.xml %.html %.doc %.pdf:	%.adoc | bundle
 	FILENAME=$^; \
@@ -61,7 +61,8 @@ $(foreach FORMAT,$(FORMATS),$(eval $(FORMAT_TASKS)))
 open: open-html
 
 clean:
-	rm -f $(OUT_FILES)
+	rm -f $(OUT_FILES); \
+	rm -rf controls
 
 bundle:
 	if [ "x" == "${METANORMA_DOCKER}x" ]; then bundle; fi
@@ -115,3 +116,16 @@ publish:
 	cp -a $(basename $(SRC)).* published/ && \
 	cp $(firstword $(HTML)) published/index.html; \
 	if [ -d "images" ]; then cp -a images published; fi
+
+#
+# CUSTOM TARGETS
+#
+
+controls:
+	mkdir -p $@;
+
+# caiq.yaml:
+# 	bundle exec csa-ccm ccm-yaml 3.0.1 -o $@
+
+controls/%.adoc: controls #caiq.yaml
+	scripts/build.rb
