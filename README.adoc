@@ -1,6 +1,6 @@
 = CSA Cloud Controls Matrix 3.0.1 Consensus Assessment Questionnaire in Metanorma
 
-image:https://travis-ci.com/metanorma/csa-caiq.svg?branch=master["Build Status", link="https://travis-ci.com/metanorma/csa-caiq"]
+image:https://api.travis-ci.com/metanorma/csa-caiq.svg?branch=master["Build Status", link="https://travis-ci.com/metanorma/csa-caiq"]
 
 This document is used to allow automatic generation of a filled CSA
 CAIQ 3.0.1 using the machine-readable requirements functionality in
