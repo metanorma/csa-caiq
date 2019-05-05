@@ -9,7 +9,7 @@
 :published-date: 2019-04-30
 :docfile: document.adoc
 :mn-document-class: csand
-:mn-output-extensions: xml,html,pdf
+:mn-output-extensions: xml,html
 :local-cache-only:
 :data-uri-image:
 
