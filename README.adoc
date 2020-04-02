@@ -54,7 +54,7 @@ make clean all
 
 The following outputs will be built:
 
-* CSAND XML (https://github.com/metanorma/metanorma-model-csand) (`[filename].xml`)
+* CSA XML (https://github.com/metanorma/metanorma-model-csa) (`[filename].xml`)
 * HTML (`[filename].html`)
 * PDF (`[filename].pdf`)
 //* Word DOC (`[filename].doc`)

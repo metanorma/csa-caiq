@@ -7,7 +7,7 @@ caiq = YAML.load(IO.read("caiq.yaml"))
 
 domains = caiq["ccm"]["control_domains"]
 
-CONTROLS_ADOC_DIR = "controls"
+CONTROLS_ADOC_DIR = "sources/controls"
 FileUtils.mkdir_p(CONTROLS_ADOC_DIR)
 FileUtils.rm_f(File.join(CONTROLS_ADOC_DIR, "xx-all.adoc"))
 
@@ -88,7 +88,7 @@ domains_body = domains.each do |domain|
   filename = "#{"%02d" % domain_counter}-#{domain_id.downcase}.adoc"
 
   File.open(File.join(CONTROLS_ADOC_DIR, "xx-all.adoc"),"a") do |f|
-    f.write "include::../#{CONTROLS_ADOC_DIR}/#{filename}[]\n"
+    f.write "include::#{filename}[]\n"
   end
 
 
