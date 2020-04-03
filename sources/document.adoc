@@ -8,7 +8,7 @@
 :committee: CCM WG
 :published-date: 2019-04-30
 :docfile: document.adoc
-:mn-document-class: csand
+:mn-document-class: csa
 :mn-output-extensions: xml,html,pdf
 :local-cache-only:
 :data-uri-image:

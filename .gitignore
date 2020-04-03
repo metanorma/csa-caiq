@@ -4,3 +4,11 @@
 
 # Deploy key
 deploy_key
+
+sources/controls
+document*
+relaton/
+documents/
+.bundle/
+Gemfile.lock
+caiq.yaml
