@@ -20,7 +20,7 @@ clean:
 sources/controls:
 	mkdir -p $@;
 
-caiq.yaml:
+caiq.yaml: bundle
 	bundle exec csa-ccm ccm-yaml 3.0.1 -o $@
 
 sources/controls/%.adoc: sources/controls caiq.yaml
