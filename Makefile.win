@@ -1,11 +1,11 @@
-include Makefile.main
+include Makefile.win.main
 
 #
 # OVERRIDEN TARGETS
 #
 
 all: sources/controls/xx-all.adoc documents.html
-	$(MAKE) -f Makefile.main $@
+	$(MAKE) -f Makefile.win.main $@
 
 clean:
 	$(MAKE) -f Makefile.main $@
