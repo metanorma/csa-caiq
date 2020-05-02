@@ -5,10 +5,10 @@ include Makefile.win.main
 #
 
 all: sources/controls/xx-all.adoc documents.html
-	$(MAKE) -f Makefile.main $@
+	$(MAKE) -f Makefile.win.main $@
 
 clean:
-	$(MAKE) -f Makefile.main $@
+	$(MAKE) -f Makefile.win.main $@
 	del /q controls caiq.yaml
 
 %.adoc: sources/controls/%.adoc
@@ -18,7 +18,7 @@ clean:
 #
 
 sources/controls:
-	mkdir -p $@;
+	if not exist "$(subst /,\,$(dir $@))" md "$(subst /,\,$(dir $@))"
 
 caiq.yaml: bundle
 	bundle exec csa-ccm ccm-yaml 3.0.1 -o $@
