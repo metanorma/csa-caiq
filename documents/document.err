@@ -1,0 +1,27 @@
+/__w/csa-caiq/csa-caiq/site/documents/document.err errors
+
+
+== AsciiDoc Input
+
+(Section: Bibliography): no anchor on reference, markup may be malformed: see https://www.metanorma.com/author/topics/document-format/bibliography/ , https://www.metanorma.com/author/iso/topics/markup/#bibliographies: For citations in the text please use square brackets and consecutive numbers: [1], [2], [3]
+	#<Asciidoctor::List@47129214749360 {context: :ulist, style: nil, items: 1}>
+
+
+== Metanorma XML Style Warning
+
+(XML Line 000076): Table should have title
+	<table id="_48e2188a-059a-4a1f-b76a-001c2a9cc1c9" width="90%">
+	<thead>
+	<tr>
+	<th valign="top" align="left">Date</th>
+	<th valign="top" align="left">Release</th>
+
+
+== Document Attributes
+
+(): draft is not a recognised status
+
+
+== Metanorma XML Syntax
+
+(XML Line 000043:7): element "ext" incomplete; missing required element "editorialgroup"
