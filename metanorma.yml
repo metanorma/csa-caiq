@@ -1,4 +1,9 @@
 ---
 metanorma:
-  deploy:
-    email: "travis-ci@metanorma.org"
+  source:
+    files:
+      - sources/document.adoc
+
+  collection:
+    organization: "CSA"
+    name: "Cloud Controls Matrix 3.0.1 Consensus Assessment Questionnaire in Metanorma"
