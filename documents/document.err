@@ -1,0 +1,37 @@
+/__w/csa-caiq/csa-caiq/site/documents/document.err errors
+
+
+== AsciiDoc Input
+
+(Section: Bibliography): no anchor on reference, markup may be malformed: see
+https://www.metanorma.com/author/topics/document-format/bibliography/ ,
+https://www.metanorma.com/author/iso/topics/markup/#bibliographies
+: For citations in the text please use square brackets and consecutive numbers: [1], [2], [3]
+	#<Asciidoctor::List@687540 {context: :ulist, style: nil, items: 1}>
+
+
+== Anchors
+
+(XML Line 000049): Crossreference target CSA06-121r9 is undefined
+	<xref target="CSA06-121r9"/>
+
+
+== Metanorma XML Style Warning
+
+(XML Line 000076): Table should have title
+	<table id="_5f8f51a1-d114-d375-e572-d6b2d9aaf336" width="90%"><thead><tr><th valign="top" align="left">Date</th>
+	<th valign="top" align="left">Release</th>
+	<th valign="top" align="left">Editor</th>
+	<th valign="top" align="left">Primary clauses modified</th>
+	<th valign="top" align="left">Description</th>
+
+
+== Document Attributes
+
+(): draft is not a recognised status
+
+
+== Metanorma XML Syntax
+
+(XML Line 000012:106): element "ext" incomplete; missing required element "editorialgroup"
+(XML Line 000157:18): element "docidentifier" not allowed yet; missing required element "title"
